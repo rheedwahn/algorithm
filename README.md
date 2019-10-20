@@ -35,6 +35,12 @@ Run through the following steps
 2. supply the numbers as requested
 3. Wait for the calculated median
 
+#Reverse Integer
+
+1. ````php artisan reverse-integer:run````
+2. Supply the integer to be reversed
+3. Wait for the expected result/output
+
 
 
 #NB
