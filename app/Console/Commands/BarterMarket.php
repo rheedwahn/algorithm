@@ -2,10 +2,10 @@
 
 namespace App\Console\Commands;
 
-use App\Service\BarterMarket\BarterMarket;
+use App\Service\BarterMarket\BarterMarket as BarterMarketService;
 use Illuminate\Console\Command;
 
-class BarterMarketCommand extends Command
+class BarterMarket extends Command
 {
     /**
      * The name and signature of the console command.
@@ -99,7 +99,7 @@ class BarterMarketCommand extends Command
         $coinsNeeded = $this->ask('Enter the coins needed...');
         $coinsOffered = $this->ask('Enter the coins offered...');
 
-        $barterMarket = new BarterMarket($comicBooks, $coins, $coinsNeeded, $coinsOffered);
+        $barterMarket = new BarterMarketService($comicBooks, $coins, $coinsNeeded, $coinsOffered);
         $fictionBook = $barterMarket->run();
 
         $this->info('You can only have '.$fictionBook.' fiction book(s)');

@@ -2,7 +2,9 @@
 
 namespace App\Service\BarterMarket;
 
-class BarterMarket
+use App\Service\BaseService;
+
+class BarterMarket implements BaseService
 {
     protected $comicBooks;
 

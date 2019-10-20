@@ -2,7 +2,8 @@
 
 namespace App\Console;
 
-use App\Console\Commands\BarterMarketCommand;
+use App\Console\Commands\BarterMarket;
+use App\Console\Commands\PalindromeNumbers;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -14,7 +15,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        BarterMarketCommand::class
+        BarterMarket::class,
+        PalindromeNumbers::class
     ];
 
     /**
