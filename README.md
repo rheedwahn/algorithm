@@ -10,6 +10,14 @@ The following step will be taken to run the different algorithm classes in the r
 3. Run ```php artisan``` to see all the artisan commands
 4. Pick the one that suites the algorithm topic you wanna run. The artisan commands is formed with the topic of the algorithm test.
 
+#Barter Market
+
+To run the barter market test on any combination of inputs, follow the steps below
+
+1. ````php artisan barter-market:run````
+2. Supply the combination of inputs
+3. Wait for the expected result
+
 #NB
 
 Pull request are equally welcome as this is an open source repository
