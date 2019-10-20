@@ -27,6 +27,14 @@ Run through the following steps below
 
 3. Wait for the output result
 
+#Median of two sorted arrays
+
+Run through the following steps
+
+1. ````php artisan media-of-two-sorted-arrays:run````
+2. supply the numbers as requested
+3. Wait for the calculated median
+
 
 
 #NB
