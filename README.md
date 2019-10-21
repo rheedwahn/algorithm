@@ -41,6 +41,11 @@ Run through the following steps
 2. Supply the integer to be reversed
 3. Wait for the expected result/output
 
+#Roman to Integer
+
+1. ````php artisan integer-to-roman:run````
+2. Supply the integer to be converted to roman numeral
+3. Wait for the equivalent output
 
 
 #NB

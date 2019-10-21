@@ -3,6 +3,7 @@
 namespace App\Console;
 
 use App\Console\Commands\BarterMarket;
+use App\Console\Commands\IntegerToRoman;
 use App\Console\Commands\MediaOfTwoSortedArrays;
 use App\Console\Commands\PalindromeNumbers;
 use App\Console\Commands\ReverseInteger;
@@ -20,7 +21,8 @@ class Kernel extends ConsoleKernel
         BarterMarket::class,
         PalindromeNumbers::class,
         MediaOfTwoSortedArrays::class,
-        ReverseInteger::class
+        ReverseInteger::class,
+        IntegerToRoman::class
     ];
 
     /**
